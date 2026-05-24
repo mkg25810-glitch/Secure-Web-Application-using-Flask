@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Failed</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="main-container">
+
+    <div class="card error-card">
+
+        <h1>⚠ Login Failed</h1>
+
+        <p>
+            Invalid username or password.
+            Please try again with correct credentials.
+        </p>
+
+        <div class="button-group">
+            <a href="/login" class="btn">
+                Try Again
+            </a>
+
+            <a href="/" class="btn secondary">
+                Home
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

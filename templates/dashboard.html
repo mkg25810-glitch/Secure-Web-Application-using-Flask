@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="main-container">
+
+    <div class="card dashboard-card">
+
+        <h1>🎉 Welcome, {{ username }}</h1>
+
+        <p>
+            Login Successful.
+            Your session is securely authenticated.
+        </p>
+
+        <a href="/logout" class="btn danger-btn">
+            Logout
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>

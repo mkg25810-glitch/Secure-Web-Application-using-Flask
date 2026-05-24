@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Web App</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="main-container">
+
+    <div class="card">
+
+        <h1>🔐 Secure Web Application</h1>
+
+        <p>
+            A Flask-based secure authentication system with
+            password hashing and SQL injection prevention.
+        </p>
+
+        <div class="button-group">
+            <a href="/register" class="btn">Register</a>
+            <a href="/login" class="btn secondary">Login</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
